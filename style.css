@@ -42,7 +42,6 @@ header .topo .navbar a{
     color: rgb(78, 77, 77);
     font-size: 1.4rem;
     font-weight: 900;
-    font-style: italic;
     margin: 0px 20px;
     text-shadow: 2px 2px 4px #00000025;
 }
@@ -94,3 +93,38 @@ header .inicio{
     margin: auto;
 }
 
+header .inicio h1{
+    margin-top: 15%;
+    font-size: 4rem;
+    font-family: var(--font-padrao);
+    font-weight: 900;
+}
+
+header .inicio h2{
+    padding: 20px;
+    font-family: var(--font-padrao);
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+header .inicio .btns2{
+    width: 300px;
+}
+
+header .inicio .btns2 button{
+    width: 120px;
+    height: 35px;
+    margin: 0px 10px;
+    border: none;
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: white;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+header .inicio .btns2 button:hover{
+    background-color: #1c4777fa;
+    box-shadow: 1px 1px 20px #5b9be6fa;
+}
