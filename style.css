@@ -71,17 +71,8 @@ header .topo .btns button{
     border-radius: 20px;
 }
 
-#register{
-    background: #3d3d3d;
-}
-
 header .topo .btns button:hover{
     background-color: #1c4777fa;
-    box-shadow: 1px 1px 20px #5b9be6fa;
-}
-
-#register:hover{
-    background: #1c4777fa;
     box-shadow: 1px 1px 20px #5b9be6fa;
 }
 
