@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-destaque: 'Concert One', cursive;
+    --font-padrao: 'Arial', Helvetica, sans-serif;
+}
+
+header .topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.164);
+}
+
+header .topo .logo{
+    width: 80px;
+    height: 80px;
+    margin: 0px 200px;
+}
+
+header .topo .logo img{
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+header .topo .navbar{
+    padding: 0px 30px;
+
+}
+
+header .topo .navbar a{
+    text-decoration: none;
+    font-family: var(--font-padrao);
+    color: rgb(78, 77, 77);
+    font-size: 1.4rem;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0px 20px;
+    text-shadow: 2px 2px 4px #00000025;
+}
+
+header .topo .navbar a:hover{
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px #58a0f1b2;
+}
+
+header .topo .btns{
+    width: 400px;
+}
+
+header .topo .btns button{
+    width: 150px;
+    height: 30px;
+    margin: 0px 10px;
+    border: none;
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: white;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+#register{
+    background: #3d3d3d;
+}
+
+header .topo .btns button:hover{
+    background-color: #1c4777fa;
+    box-shadow: 1px 1px 20px #5b9be6fa;
+}
+
+#register:hover{
+    background: #1c4777fa;
+    box-shadow: 1px 1px 20px #5b9be6fa;
+}
+
+header .inicio{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
