@@ -149,6 +149,7 @@ header .inicio .btns2 button:hover{
 main{
     max-width: 1100px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 main .images{
@@ -190,6 +191,68 @@ main .container .box-content{
 main .container .box-content h1{
     font-family: var(--font-destaque);
 }
+
+/*Footer*/
+footer{
+    max-width: 1300px;
+    display: flex;
+    margin: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.247);
+    padding: 20px;
+}
+
+footer .contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contatos .logo-footer{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+footer .contatos .logo-footer img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+footer .contatos .sociais a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 5px;
+}
+
+footer .contatos .sociais i{
+    width: 30px;
+    height: 30px;
+}
+
+footer .links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 300px;
+    margin-left: 80px;
+}
+
+footer h2{
+    font-family: var(--font-padrao);
+    margin-bottom: 20px;
+}
+
+footer li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    font-family: var(--font-padrao);
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
 
 
 
