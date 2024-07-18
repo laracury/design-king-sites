@@ -13,22 +13,28 @@
             <div class="logo">
                 <a href="index.html"><img src="imagens/logo_nova.png" alt=""></a>
             </div>
-            <nav class="navbar">
-                <a href="#">Pricing</a>
-                <a href="#">Solutions</a>
-                <a href="#">Community</a>
-                <a href="#">Resources</a>
-                <a href="#">Contact</a>
+            <nav>
+                <ul class="menu">
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
             </nav>
             <div class="btns">
                 <button>Sing In</button>
                 <button>Register</button>
             </div>
             <!-- MENU HAMBUGUER -->
-            <div class="menu-hamburguer">
-                <i id="menu" class="bi bi-list"></i>
+            <div class="menu-toggle">
+                <div class="hamburguer"></div>
+                <ion-icon name="menu"></ion-icon>
             </div>
         </div>
+
+        <div class="overlay"></div> <!-- Fundo onde o menu vai aparecer -->
+
         <div class="inicio">
             <h1>KING</h1>
             <h2>SITES</h2>
@@ -49,42 +55,42 @@
         </div>
         <div class="container">
             <aside class="box">
-                <i class="bi bi-exclamation-circle"></i>
+                <ion-icon name="alert-circle-outline"></ion-icon>
                 <div class="box-content">
                     <h1>Title</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo nam aut eligendi, rerum corporis! Voluptate doloribus molestias, laboriosam odit laudantium natus quae, quisquam rerum ducimus aspernatur iusto quaerat culpa.</p>
                 </div>
             </aside>
             <aside class="box">
-                <i class="bi bi-exclamation-circle"></i>
+                <ion-icon name="alert-circle-outline"></ion-icon>
                 <div class="box-content">
                     <h1>Title</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo nam aut eligendi, rerum corporis! Voluptate doloribus molestias, laboriosam odit laudantium natus quae, quisquam rerum ducimus aspernatur iusto quaerat culpa.</p>
                 </div>
             </aside>
             <aside class="box">
-                <i class="bi bi-exclamation-circle"></i>
+                <ion-icon name="alert-circle-outline"></ion-icon>
                 <div class="box-content">
                     <h1>Title</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo nam aut eligendi, rerum corporis! Voluptate doloribus molestias, laboriosam odit laudantium natus quae, quisquam rerum ducimus aspernatur iusto quaerat culpa.</p>
                 </div>
             </aside>
             <aside class="box">
-                <i class="bi bi-exclamation-circle"></i>
+                <ion-icon name="alert-circle-outline"></ion-icon>
                 <div class="box-content">
                     <h1>Title</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo nam aut eligendi, rerum corporis! Voluptate doloribus molestias, laboriosam odit laudantium natus quae, quisquam rerum ducimus aspernatur iusto quaerat culpa.</p>
                 </div>
             </aside>
             <aside class="box">
-                <i class="bi bi-exclamation-circle"></i>
+                <ion-icon name="alert-circle-outline"></ion-icon>
                 <div class="box-content">
                     <h1>Title</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo nam aut eligendi, rerum corporis! Voluptate doloribus molestias, laboriosam odit laudantium natus quae, quisquam rerum ducimus aspernatur iusto quaerat culpa.</p>
                 </div>
             </aside>
             <aside class="box">
-                <i class="bi bi-exclamation-circle"></i>
+                <ion-icon name="alert-circle-outline"></ion-icon>
                 <div class="box-content">
                     <h1>Title</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo nam aut eligendi, rerum corporis! Voluptate doloribus molestias, laboriosam odit laudantium natus quae, quisquam rerum ducimus aspernatur iusto quaerat culpa.</p>
@@ -98,10 +104,10 @@
                 <img src="imagens/logo_nova.png" alt="logo">
             </div>
             <div class="sociais">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-youtube"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
             </div>
         </div>
         <div class="links">
@@ -144,5 +150,10 @@
         </div>
     </footer>
 </body>
+
+<!--Importando ícones-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 <script src="script.js" ></script>
 </html>
